@@ -1,0 +1,246 @@
+/*Color Theme*/
+:root {
+    --forestgreen: rgba(0, 0, 0, 0.651);
+    --white: #f7eeee;
+}
+
+/*General Styles*/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--forestgreen);
+    margin: 0;
+}
+
+/*Navbar*/
+.navbar {
+    /* background-color: var(--teal); */
+    padding: 15px 10px 15px 0px;
+}
+
+.navbar-brand {
+    /* background-color: var(--pink); */
+    color: var(--forestgreen);
+    text-align: right;
+    padding: 5px 10px 5px 50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.navbar-collapse {
+    justify-content: right;
+    padding: 5px 50px 5px 10px;
+}
+
+.navbar-nav .nav-link {
+    color: var(--forestgreen);
+}
+
+.navbar-nav a:hover {
+    background-color: var(--forestgreen);
+    color: var(--white);
+    transition: all 0.1s ease-out;
+}
+
+/*Hero Section*/
+.jumbotron {
+    background-image: url(../images/02-hero-bg.png);
+    background-size: cover;
+    background-position: cover;
+}
+
+.jumbo-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbo-left div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Rishi {
+    max-width: 75%;
+    border-radius: 50%;
+}
+
+.display-4 {
+    font-weight: 500;
+    color: var(--forestgreen);
+    /* background-color: var(--white); */
+    margin: 20px;
+    padding: 20px;
+    /* border: 1px solid var(--forestgreen); */
+    border-radius: 10px;
+}
+
+.btn-hero {
+    background-color: var(--white);
+    color: var(--forestgreen);
+    border-color: var(--forestgreen);
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 10px 1px;
+    margin: 0px 0px 0px 10px;
+    border-radius: 1px;
+}
+
+.btn-hero:hover {
+    background-color: var(--forestgreen);
+    border-color: var(--forestgreen);
+    color: var(--white);
+    box-shadow: 0px 5px 5px 0px var(--white);
+    transition: all 0.1s ease-out;
+}
+
+/*General Styles for Main Content*/
+h2 {
+    text-align: right;
+    padding: 0px 50px 0px 0px;
+}
+
+.section-container {
+    padding: 0px 0px 50px 0px;
+    align-items: center;
+}
+
+.section-heading {
+    border-right: 1px solid var(--forestgreen);
+}
+
+/*Work Section*/
+
+.col-lg-12 {
+    padding: 10px;
+}
+
+.col-lg-6 {
+    padding: 10px;
+    align-items: center;
+}
+
+.card-body {
+    border: 1px solid var(--forestgreen);
+}
+
+.card-title {
+    /* background-color: var(--white); */
+    padding: 5px;
+    /* border-radius: 10px; */
+    margin: 50px 50px 50px 20px;
+}
+
+.card-text {
+    color: var(--white);
+}
+
+.card-main {
+    /* background-color: var(--forestgreen-transparent); */
+    padding: 10px;
+    margin: 50px 50px 50px 20px;
+    /* border: 1px solid var(--forestgreen); */
+    border-radius: 1px;
+}
+
+.Project1 {
+    background-image: url(../images/02-portfolio-1.png);
+    background-size: cover;
+    background-position: cover;
+}
+
+.Project2 {
+    background-image: url(../images/02-portfolio-2.png);
+    background-size: cover;
+    background-position: cover;
+}
+
+.Project3 {
+    background-image: url(../images/02-portfolio-3.png);
+    background-size: cover;
+    background-position: cover;
+}
+
+.Project4 {
+    background-image: url(../images/02-portfolio-4.png);
+    background-size: cover;
+    background-position: cover;
+}
+
+.Project5 {
+    background-image: url(../images/02-run-buddy.png);
+    background-size: cover;
+    background-position: cover;
+}
+
+.btn-card {
+    background-color: var(--white);
+    color: var(--forestgreen);
+    border-color: var(--forestgreen);
+    border-radius: 10px;
+}
+
+.btn-card:hover {
+    background-color: var(--white);
+    border-color: var(--white);
+    color: var(--forestgreen);
+    box-shadow: 0px 5px 5px 0px var(--white);
+    transition: all 0.1s ease-out;
+}
+
+/*Footer*/
+.footer {
+    background-color: var(--white);
+    color: var(--forestgreen);
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+}
+
+.footer-section {
+    padding: 50px 100px;
+}
+
+
+.btn-footer {
+    background-color: var(--white);
+    color: var(--forestgreen);
+    border-color: var(--forestgreen);
+    border-radius: 10px;
+}
+
+.btn-footer:hover {
+    background-color: var(--forestgreen);
+    border: 1px solid var(--white);
+    color: var(--white);
+    box-shadow: 0px 5px 5px 0px var(--white);
+    transition: all 0.1s ease-out;
+}
+.contactDetails a {
+    color: var(--forestgreen);
+}
+
+.contactDetails a:hover {
+text-decoration: underline;
+}
+
+
+
+/*Media Query - centers Learn More button on devices smaller than large screen (992px)*/
+
+@media (max-width: 991px) {
+
+    .btn-outline-primary {
+        display: flex;
+        justify-content: center;
+        margin: 0px 150px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .section-heading {
+        border-right: 0px;
+    }
+}
